@@ -1337,12 +1337,17 @@ Good:
     </html>
 
 
+To-Do
+------------
+
+Include a 'why' on each topic.
+
 Contributors
 ------------
 
 - [@cez-aug]
 
-This document is heavily based on the awesome HTML Best Practices written by the following:
+This document is an attempt of a continuous development from the awesome HTML Best Practices written by the following:
 
 - [@hail2u]
 - [@momdo]
@@ -1351,10 +1356,10 @@ This document is heavily based on the awesome HTML Best Practices written by the
 License
 -------
 
-[CC0]
+[WTFPL]
 
 
 [@cez-aug]: https://github.com/cez-aug
 [@hail2u]: https://github.com/hail2u
 [@momdo]:  https://github.com/momdo
-[CC0]:     http://creativecommons.org/publicdomain/zero/1.0/
+[WTFPL]:     http://www.wtfpl.net/
