@@ -1340,7 +1340,10 @@ Good:
 To-Do
 ------------
 
-Include a 'why' on each topic.
+- Include a 'why' on each topic.
+- Include more HTML5 practices.
+- Create a human-readable page.
+- Create a Grunt task.
 
 Contributors
 ------------
