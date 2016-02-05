@@ -5,9 +5,8 @@
 
 [![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/github-project-template) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-This guide aims to propagate good practices for writing maintainable and scalable HTML documents, clearing some frequent questions related to HTML5 semantics with explanations for Do's and Don'ts about language's markup. 
+This guide aims to propagate good practices for writing maintainable and scalable HTML documents, clearing some frequent questions related to semantics with explanations for *Do's* and *Don'ts* about language's markup. 
 
-<br>
 <br>
 <br>
 
