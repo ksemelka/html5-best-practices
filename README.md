@@ -1,4 +1,4 @@
-<img src="html5.png" align="left" width="192px" height="192px"/>
+<img src="HTML5.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
 > HTML5 Best Practices.
