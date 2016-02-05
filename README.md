@@ -1352,7 +1352,7 @@ To-Do
 - [ ] Include exclusive HTML5 practices.
 - [ ] Create a human-readable page. (removed)
 
-Acnowledgements
+Acknowledgements
 ------------
 
 This document is a continuous development project, based on the awesome HTML Best Practices written by [@hail2u]
@@ -1360,9 +1360,10 @@ This document is a continuous development project, based on the awesome HTML Bes
 License
 -------
 
-[WTFPL]
+## License 
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+[Cezar Augusto](http://cezar.work) has dedicated the work to the public domain by waiving all of his rights to the work worldwide under copyright law.
 
 [@cez-aug]: https://github.com/cez-aug
 [@hail2u]: https://github.com/hail2u
-[WTFPL]:     http://www.wtfpl.net/
