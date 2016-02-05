@@ -1,7 +1,15 @@
-HTML Best Practices
-===================
+<img src="html5.png" align="left" width="192px" height="192px"/>
+<img align="left" width="0" height="192px" hspace="10"/>
+
+> HTML5 Best Practices.
+
+[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/github-project-template) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://opensource.org/licenses/MIT)
+
+This extensible guide aims to propagate good practices and clear some frequent questions related to basic HTML5 semantic, offering explanations for Do's and Don'ts about language's markup. 
 
 For writing maintainable and scalable HTML documents.
+<br>
+<br>
 
 <!-- #toc -->
 
@@ -1340,21 +1348,14 @@ Good:
 To-Do
 ------------
 
-- Include a 'why' on each topic.
-- Include more HTML5 practices.
-- Create a human-readable page.
-- Create a Grunt task.
+- [ ] Include a 'why' on each topic.
+- [ ] Include exclusive HTML5 practices.
+- [ ] Create a human-readable page. (removed)
 
-Contributors
+Acnowledgements
 ------------
 
-- [@cez-aug]
-
-This document is an attempt of a continuous development from the awesome HTML Best Practices written by the following:
-
-- [@hail2u]
-- [@momdo]
-
+This document is a continuous development project, based on the awesome HTML Best Practices written by [@hail2u]
 
 License
 -------
@@ -1364,5 +1365,4 @@ License
 
 [@cez-aug]: https://github.com/cez-aug
 [@hail2u]: https://github.com/hail2u
-[@momdo]:  https://github.com/momdo
 [WTFPL]:     http://www.wtfpl.net/
