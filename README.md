@@ -1349,7 +1349,6 @@ To-Do
 
 - [ ] Include a 'why' on each topic.
 - [ ] Include exclusive HTML5 practices.
-- [ ] Create a human-readable page. (removed)
 
 Acknowledgements
 ------------
