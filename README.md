@@ -5,9 +5,7 @@
 
 [![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/github-project-template) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-This extensible guide aims to propagate good practices and clear some frequent questions related to basic HTML5 semantic, offering explanations for Do's and Don'ts about language's markup. 
-
-For writing maintainable and scalable HTML documents.
+This guide aims to propagate good practices for writing maintainable and scalable HTML documents, clearing some frequent questions related to HTML5 semantics with explanations for Do's and Don'ts about language's markup. 
 <br>
 <br>
 
@@ -1357,10 +1355,9 @@ Acknowledgements
 
 This document is a continuous development project, based on the awesome HTML Best Practices written by [@hail2u]
 
-License
+License 
 -------
 
-## License 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 [Cezar Augusto](http://cezar.work) has dedicated the work to the public domain by waiving all of his rights to the work worldwide under copyright law.
