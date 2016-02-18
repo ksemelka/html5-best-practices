@@ -1,5 +1,4 @@
-Contributing to HTML Best Practice
-==================================
+# Contributing to HTML Best Practices
 
 Thanks for taking the time to contribute! :cool:
 
