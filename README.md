@@ -9,7 +9,7 @@ This guide aims to propagate good practices for writing maintainable and scalabl
 
 <br>
 <p align="center">
-<a href="#table-of-content">TOC</a> • <a href="#acknowledgements">Acknowledgements</a> • <a href="#author">Author</a><a href="#license">License</a> 
+<a href="#table-of-content">TOC</a> • <a href="#acknowledgements">Acknowledgements</a> • <a href="#author">Author</a> • <a href="#license">License</a> 
 </p>
 <br>
 
