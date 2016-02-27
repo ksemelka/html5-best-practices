@@ -9,15 +9,24 @@ This guide aims to propagate good practices for writing maintainable and scalabl
 
 <br>
 <p align="center">
-<strong>Table of Contents:</strong>
-<a href="#general">General</a>  • <a href="#root element">Root Element</a>  • <a href="#metadata">Metadata</a> • <a href="#sections">Sections</a> • <a href="#grouping content">Grouping Content</a> • <a href="text-level semantics">Text-level Semantics</a> • <a href="#edits">Edits</a> • <a href="#embedded content">Embedded Content</a> • <a href="#tabular data">Tabular data</a> • <a href="#scripting">Scripting</a> • <a href="#forms">Forms</a> • <a href="#other">Other</a>     
+<a href="#table-of-content">TOC</a> • <a href="#acknowledgements">Acknowledgements</a> • <a href="#author">Author</a><a href="#license">License</a> 
 </p>
 <br>
 
-* [To-Do](#to-do)
-* [Acknowledgements](#acknowledgements)
-* [Author](#author)
-* [License](#license) 
+## Table of Contents
+
+* [General](#general)
+* [The root element](#the-root-element)
+* [Document metadata](#document-metadata)
+* [Sections](#sections)
+* [Grouping content](#grouping-content)
+* [Text-level semantics](#text-level-semantics)
+* [Edits](#edits)
+* [Embedded content](#embedded-content)
+* [Tabular data](#tabular-data)
+* [Forms](#forms)
+* [Scripting](#scripting)
+* [Other](#other)
 
 General
 -------
@@ -1264,7 +1273,7 @@ Good:
 
 ## Author
 
-(Cezar Augusto)[http://cezar.work]
+[Cezar Augusto](http://cezar.work)
 
 ## License 
 
