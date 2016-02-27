@@ -8,108 +8,16 @@
 This guide aims to propagate good practices for writing maintainable and scalable HTML documents, clearing some frequent questions related to semantics with explanations for *Do's* and *Don'ts* about language's markup. 
 
 <br>
+<p align="center">
+<strong>Table of Contents:</strong>
+<a href="#general">General</a>  • <a href="#root element">Root Element</a>  • <a href="#metadata">Metadata</a> • <a href="#sections">Sections</a> • <a href="#grouping content">Grouping Content</a> • <a href="text-level semantics">Text-level Semantics</a> • <a href="#edits">Edits</a> • <a href="#embedded content">Embedded Content</a> • <a href="#tabular data">Tabular data</a> • <a href="#scripting">Scripting</a> • <a href="#forms">Forms</a> • <a href="#other">Other</a>     
+</p>
 <br>
 
-<!-- #toc -->
-
-* [General](#general)
-  * [Start with DOCTYPE](#start-with-doctype)
-  * [Don't use legacy or obsolete DOCTYPE](#dont-use-legacy-or-obsolete-doctype)
-  * [Don't use XML Declaration](#dont-use-xml-declaration)
-  * [Don't use character references as much as possible](#dont-use-character-references-as-much-as-possible)
-  * [Escape `&`, `<`, `>`, `"`, and `'` with named character references](#escape-----and--with-named-character-references)
-  * [Use named character references for control or invisible characters](#use-named-character-references-for-control-or-invisible-characters)
-  * [Put white spaces around comment contents](#put-white-spaces-around-comment-contents)
-  * [Don't omit closing tag](#dont-omit-closing-tag)
-  * [Don't mix empty element format](#dont-mix-empty-element-format)
-  * [Don't put white spaces around tags and attribute values](#dont-put-white-spaces-around-tags-and-attribute-values)
-  * [Don't mix character cases](#dont-mix-character-cases)
-  * [Don't mix quotation marks](#dont-mix-quotation-marks)
-  * [Don't separate attributes with two or more white spaces](#dont-separate-attributes-with-two-or-more-white-spaces)
-  * [Omit boolean attribute value](#omit-boolean-attribute-value)
-  * [Omit namespaces](#omit-namespaces)
-  * [Don't use XML attributes](#dont-use-xml-attributes)
-  * [Don't mix `data-*`, Microdata, and RDFa Lite attributes with common attributes](#dont-mix-data--microdata-and-rdfa-lite-attributes-with-common-attributes)
-  * [Prefer strong native semantics](#prefer-strong-native-semantics)
-* [The root element](#the-root-element)
-  * [Add `lang` attribute](#add-lang-attribute)
-  * [Keep `lang` attribute value as short as possible](#keep-lang-attribute-value-as-short-as-possible)
-* [Document metadata](#document-metadata)
-  * [Add `title` element](#add-title-element)
-  * [Specify MIME type of minor linked resources](#specify-mime-type-of-minor-linked-resources)
-  * [Don't link to `favicon.ico`](#dont-link-to-faviconico)
-  * [Add `title` attribute to alternate stylesheets](#add-title-attribute-to-alternate-stylesheets)
-  * [Specify document character encoding](#specify-document-character-encoding)
-  * [Don't use legacy character encoding format](#dont-use-legacy-character-encoding-format)
-  * [Specify character encoding at first](#specify-character-encoding-at-first)
-  * [Use UTF-8](#use-utf-8)
-  * [Omit `type` attribute for CSS](#omit-type-attribute-for-css)
-  * [Don't comment out contents of `style` element](#dont-comment-out-contents-of-style-element)
-  * [Don't mix tag for CSS and JavaScript](#dont-mix-tag-for-css-and-javascript)
-* [Sections](#sections)
-  * [Add `body` tag](#add-body-tag)
-  * [Forget about `hgroup` element](#forget-about-hgroup-element)
-  * [Use `address` element only for contact information](#use-address-element-only-for-contact-information)
-* [Grouping content](#grouping-content)
-  * [Don't start with newline in `pre` element](#dont-start-with-newline-in-pre-element)
-  * [Use appropriate element in `blockquote` element](#use-appropriate-element-in-blockquote-element)
-  * [Don't include attribution directly in `blockquote` element](#dont-include-attribution-directly-in-blockquote-element)
-  * [Write one list item per line](#write-one-list-item-per-line)
-  * [Use `type` attribute for `ol` element](#use-type-attribute-for-ol-element)
-  * [Place `figcaption` element as first or last child of `figure` element](#place-figcaption-element-as-first-or-last-child-of-figure-element)
-  * [Use `main` element](#use-main-element)
-  * [Avoid `div` element as much as possible](#avoid-div-element-as-much-as-possible)
-* [Text-level semantics](#text-level-semantics)
-  * [Don't split same link that can be grouped](#dont-split-same-link-that-can-be-grouped)
-  * [Use `download` attribute for downloading a resource](#use-download-attribute-for-downloading-a-resource)
-  * [Use `rel`, `hreflang`, and `type` attribute if needed](#use-rel-hreflang-and-type-attribute-if-needed)
-  * [Clear link text](#clear-link-text)
-  * [Don't use `em` element for warning or caution](#dont-use-em-element-for-warning-or-caution)
-  * [Avoid `s`, `i`, `b`, and `u` element as much as possible](#avoid-s-i-b-and-u-element-as-much-as-possible)
-  * [Don't put quotes to `q` element](#dont-put-quotes-to-q-element)
-  * [Add `title` attribute to `abbr` element](#add-title-attribute-to-abbr-element)
-  * [Markup `ruby` element verbosely](#markup-ruby-element-verbosely)
-  * [Add `datetime` attribute to non-machine-readable `time` element](#add-datetime-attribute-to-non-machine-readable-time-element)
-  * [Specify code language with `class` attribute prefixed with `language-`](#specify-code-language-with-class-attribute-prefixed-with-language-)
-  * [Keep `kbd` element as simple as possible](#keep-kbd-element-as-simple-as-possible)
-  * [Avoid `span` element as much as possible](#avoid-span-element-as-much-as-possible)
-  * [Break after `br` element](#break-after-br-element)
-  * [Don't use `br` element only for presentational purpose](#dont-use-br-element-only-for-presentational-purpose)
-* [Edits](#edits)
-  * [Don't stride `ins` and `del` element over other elements](#dont-stride-ins-and-del-element-over-other-elements)
-* [Embedded content](#embedded-content)
-  * [Add `alt` attrbute to `img` element if needed](#add-alt-attrbute-to-img-element-if-needed)
-  * [Empty `alt` attribute if possible](#empty-alt-attribute-if-possible)
-  * [Omit `alt` attibute if possible](#omit-alt-attibute-if-possible)
-  * [Empty `iframe` element](#empty-iframe-element)
-  * [Markup `map` element content](#markup-map-element-content)
-  * [Provide fallback content for `audio` or `video` element](#provide-fallback-content-for-audio-or-video-element)
-* [Tabular data](#tabular-data)
-  * [Write one cell per line](#write-one-cell-per-line)
-  * [Use `th` element for header cell](#use-th-element-for-header-cell)
-* [Forms](#forms)
-  * [Wrap form control with `label` element](#wrap-form-control-with-label-element)
-  * [Omit `for` attribute if possible](#omit-for-attribute-if-possible)
-  * [Use appropriate `type` attribute for `input` element](#use-appropriate-type-attribute-for-input-element)
-  * [Add `value` attribute to `input type="submit"`](#add-value-attribute-to-input-typesubmit)
-  * [Add `title` attibute to `input` element when there is `pattern` attribute](#add-title-attibute-to-input-element-when-there-is-pattern-attribute)
-  * [Don't use `placeholder` attribute for labeling](#dont-use-placeholder-attribute-for-labeling)
-  * [Write one `option` element per line](#write-one-option-element-per-line)
-  * [Add `max` attribute to `progress` element](#add-max-attribute-to-progress-element)
-  * [Add `min` and `max` attribute to `meter` element](#add-min-and-max-attribute-to-meter-element)
-  * [Place `legend` element as first child of `fieldset` element](#place-legend-element-as-first-child-of-fieldset-element)
-* [Scripting](#scripting)
-  * [Omit `type` attribute for JavaScript](#omit-type-attribute-for-javascript)
-  * [Add `defer` attribute if `script` element has `async` attribute](#add-defer-attribute-if-script-element-has-async-attribute)
-  * [Don't comment out contents of `script` element](#dont-comment-out-contents-of-script-element)
-  * [Don't use script-injected `script` element](#dont-use-script-injected-script-element)
-* [Other](#other)
-  * [Indent consistently](#indent-consistently)
-* [Contributors](#contributors)
-* [License](#license)
-
-<!-- /toc -->
-
+* [To-Do](#to-do)
+* [Acknowledgements](#acknowledgements)
+* [Author](#author)
+* [License](#license) 
 
 General
 -------
@@ -1344,23 +1252,22 @@ Good:
     </html>
 
 
-To-Do
-------------
+## To-Do
 
-- [ ] Include a 'why' on each topic.
+- [ ] Include a "why" on each topic.
 - [ ] Include exclusive HTML5 practices.
+- [ ] Separate content by folders
 
-Acknowledgements
-------------
+## Acknowledgements
 
-This document is a continuous development project, based on the awesome HTML Best Practices written by [@hail2u]
+* Inspired by [Code Guide by @mdo](http://codeguide.co/). Based on the awesome [HTML Best Practices](https://github.com/hail2u/html-best-practices) written by [@hail2u](https://github.com/hail2u).
 
-License 
--------
+## Author
+
+(Cezar Augusto)[http://cezar.work]
+
+## License 
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Cezar Augusto](http://cezar.work) has waived all copyright and related or neighboring rights to this work.
-
-[@cez-aug]: https://github.com/cez-aug
-[@hail2u]: https://github.com/hail2u
