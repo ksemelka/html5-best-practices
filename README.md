@@ -48,6 +48,13 @@ Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec 
 
 If you can't contribute but found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
 
+## To-Do
+
+- [ ] Link between pages 
+- [ ] Include Section descriptions
+- [ ] Informative "why"
+- [ ] Spread the word :cool:
+
 ## Acknowledgements :clap:
 
 Inspired by [Code Guide by @mdo](http://codeguide.co/) and [HTML Best Practices by @hail2u](https://github.com/hail2u/html-best-practices)
