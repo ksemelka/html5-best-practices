@@ -8,6 +8,7 @@
 Guidelines for writing scalable and sustainable HTML documents. Enforces semantic principles with explanations for *Do's* and *Don'ts* about language's markup.
 
 <br>
+<br>
 <p align="center">
 <a href="#why-this-guide">Why this?</a> • <a href="#target-audience">Target Audience</a> • <a href="#table-of-contents">TOC</a> • <a href="#contribute">Contribute!</a> • <a href="#resources">Resources</a> • <a href="#acknowledgements">Acknowledgements</a> • <a href="#author">Author</a> • <a href="#license">License</a> 
 </p>
@@ -19,7 +20,7 @@ As we include more technologies into our stack, it's easy to neglect the needing
 
 ## Target Audience :family:
 
-Anyone interessed in maitaining a coesive code, multidisciplinary teams, newcomers and seasoned developers looking to standard their coding standard.
+Anyone interessed in maitaining a coesive code, multidisciplinary teams, newcomers and seasoned developers looking to maintain a cohesive coding standard.
 
 ## Table of Contents :zap:
 
