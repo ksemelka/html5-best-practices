@@ -8,23 +8,28 @@ Progressive Enchancement means that your site works perfectly without JavaScript
 
 > Bad:
 
-    <noscript>
-        This site requires JavaScript enabled. 
-        Please enable it to see its content.
-    </noscript>
+```html
+<noscript>
+    This site requires JavaScript enabled. 
+    Please enable it to see its content.
+</noscript>
+```
 
 > Good:
 
 A fully functional website not JavaScript dependent. 
 
-    <noscript>
-          You're experiencing this website without JavaScript enabled. 
-          To enhance your experience, please enable it.
-    </noscript>
+```html
+<noscript>
+    You're experiencing this website without JavaScript enabled. 
+    To enhance your experience, please enable it.
+</noscript>
+```
 
 > Why?
 
 Sites relying on Graceful Degradation are built on top of JS, usually warning the user that the site won't works well without it and offering little or none funcionalities for disabled JS clients. By choosing Progressive Enhancement you ensure that, despite the lack of JS, your website doesn't break user experience. 
+
 
 ## Use `async` attribute for non-blocking `script`s
 
@@ -32,11 +37,15 @@ For scripts that doesn't interfer on page's rendering, use `async`. A classical 
 
 > Bad:
 
-    <script src="//www.google-analytics.com/analytics.js"></script>
+```html
+<script src="//www.google-analytics.com/analytics.js"></script>
+```
 
 > Good:
 
-    <script async src="//www.google-analytics.com/analytics.js"></script>
+```html
+<script async src="//www.google-analytics.com/analytics.js"></script>
+```
 
 > Why?
 
@@ -47,11 +56,15 @@ The `async` attribute downloads a script without blocking the rest of the page l
 
 > Bad:
 
-    <script type="text/javascript" src="voodoo-child.js"></script>
+```html
+<script type="text/javascript" src="voodoo-child.js"></script>
+```
 
 > Good:
 
-    <script src="voodoo-child.js"></script>
+```html
+<script src="voodoo-child.js"></script>
+```
 
 > Why?
 
@@ -62,15 +75,19 @@ Since the creation of HTML5 doctype, the `type` attribute is no longer required.
 
 > Bad:
 
-    <script>
-        (function(){
-          console.log('Highway Chile');
-        })();
-    </script>
+``` js
+<script>
+    (function(){
+        console.log('Highway Chile');
+    })();
+</script>
+```
 
 > Good:
 
-    <script src="highway-chile.js"></script>
+```html
+<script src="highway-chile.js"></script>
+```
 
 > Why?
 
