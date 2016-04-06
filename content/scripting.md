@@ -18,15 +18,15 @@
 ```html
 <!-- Bad -->
 <noscript>
-This site requires JavaScript enabled.
-Please enable it to see its content.
+  This site requires JavaScript enabled.
+  Please enable it to see its content.
 </noscript>
 
 <!-- Good -->
 <!-- A fully functional website not JavaScript dependent. -->
 <noscript>
-You're experiencing this website without JavaScript enabled.
-To enhance your experience, please enable it.
+    You're experiencing this website without JavaScript enabled.
+    To enhance your experience, please enable it.
 </noscript>
 ```
 
@@ -40,7 +40,7 @@ To enhance your experience, please enable it.
 <!-- bad -->
 <script>
 (function(){
-console.log('Highway Chile');
+    console.log('Highway Chile');
 })();
 </script>
 
