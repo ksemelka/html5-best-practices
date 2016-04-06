@@ -1,11 +1,11 @@
 <img src="HTML5.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> HTML5 Guidelines - Writing Scalable & Consistent HTML5
+> HTML5 Best Practices - Writing Scalable & Consistent HTML5
 
 [![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/github-project-template) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-Guidelines, advices and notes for writing scalable and sustainable HTML5 documents. Enforces semantic principles with short explanations about the elements of a HTML5 Application.
+A collection of Community's acclaimed best practices, advices and notes for writing scalable and sustainable HTML5 documents. Enforces semantic principles with short explanations about the most common elements of an HTML5 Application.
 
 <br>
 <br>
@@ -16,11 +16,11 @@ Guidelines, advices and notes for writing scalable and sustainable HTML5 documen
 
 ## Why this? :two_hearts:
 
-As we include more technologies into our stack, it's easy to neglect the needing to maintain a coding standard for HTML, which is the foundation for the Web developent. Despite all Linters and Checkers available, this Guideline enforces common coding principles and acclaimed best practices for writing scalable and sustainable HTML documents.
+As we include more technologies into our stack, it's easy to forgot about HTML5 semantic principles and good practices. Despite all Linters and Checkers available, this collection enforces the usage of acclaimed best practices for writing scalable and sustainable HTML documents.
 
 ## Target Audience :family:
 
-Anyone interessed in maitaining a coesive code, multidisciplinary teams, newcomers and seasoned developers looking to maintain a cohesive coding standard.
+Developers/Designers interessed in broaden their HTML5 semantic skills, newcomers and seasoned developers looking for a mind-refresher about HTML5 standards and best practices.
 
 <hr>
 ## `Please notice that this document is currently a draft, a Work in Progress and most of its content are not public-ready yet.`
@@ -28,10 +28,10 @@ Anyone interessed in maitaining a coesive code, multidisciplinary teams, newcome
 
 ## Table of Contents :zap:
 
-1. [General](#) *will possibily be removed*
+1. ~~[General](#)~~ *abandoned*
 2. [Root element](#) *work in progress*
 3. [Document Metadata](#) *work in progress*
-4. [Sections](#) *work in progress*
+4. [Sections](content/sections.md) **READY**
 5. [Grouping content](#) *work in progress*
 6. [Text-level semantics](#) *work in progress*
 7. [Edits](#) *work in progress*
@@ -39,16 +39,16 @@ Anyone interessed in maitaining a coesive code, multidisciplinary teams, newcome
 9. [Links](#) *work in progress*
 10. [Tabular data](#) *work in progress*
 11. [Forms](#) *work in progress*
-13. [Attribute order](#) *work in progress*
-14. [Scripting](guidelines/scripting.md) **READY**
-15. [Acessibility](#) *work in progress*
-16. [Other](#) *will possibily be removed*
+13. [Scripting](content/scripting.md) **READY**
+14. [Acessibility](#) *work in progress*
+15. [Markup Style](content/markup-style.md) **READY**
+16. [Other](#) *work in progress*
 
 ## Contribute! :dancers:
 
 Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec tips? Semantics addicted? Contribute with the project!
 
-If you can't contribute but found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
+If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
 
 ### Commit/PR guidelines :clap:
 
@@ -61,10 +61,10 @@ Please make sure while you're making your PR that is code is:
 
 ## To-Do :sunglasses:
 
-- [ ] General
+- [ ] ~~General~~
 - [ ] Root element
 - [ ] Document Metadata
-- [ ] Sections
+- [x] Sections
 - [ ] Grouping content
 - [ ] Text-level semantics 
 - [ ] Edits
@@ -72,10 +72,12 @@ Please make sure while you're making your PR that is code is:
 - [ ] Links
 - [ ] Tabular data
 - [ ] Forms
-- [ ] Attribute order
-- [ ] Scripting
+- [ ] ~~Attribute order~~
+- [x] Scripting
 - [ ] Acessibility
-- [ ] Other
+- [x] Markup Style
+- [ ] ~~Other~~
+- [ ] Create CONTRIBUTING and/or PULL_REQUEST_TEMPLATE
 - [ ] Spread the word :cool:
 
 ## Author :musical_keyboard:
