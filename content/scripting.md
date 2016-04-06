@@ -1,94 +1,77 @@
 # Scripting
 
-> Scripts allow authors to add interactivity to their documents.
+ > Scripts allow authors to add interactivity to their documents.
 
-## Prefer Progressive Enhancement over Graceful Degradation
+ ## Table of Contents
 
-Progressive Enchancement means that your site works perfectly without JavaScript enabled, and is enhanced progressively with JS to improve user experience. For warning messages, use the `<noscript>` tag.
+ 1. [Development Approaches](#development-approaches)
+ 2. [Separation of Concerns](#separation-of-concerns)
+ 3. [Async Attribute](#async-attribute)
+ 4. [Type Attribute](#type-attribute)
 
-> Bad:
+ ## Development Approaches
 
-```html
-<noscript>
-    This site requires JavaScript enabled. 
-    Please enable it to see its content.
-</noscript>
-```
+ ### Prefer Progressive Enhancement over Graceful Degradation
 
-> Good:
+ > **[?]** Sites relying on Graceful Degradation are built on top of JS, offering little or no funcionalities for disabled JS clients. Prefer Progressive Enhancement to ensure that, despite the lack of JS, your website doesn't break user's experience.
 
-A fully functional website not JavaScript dependent. 
+ ```html
+ <!-- Bad -->
+ <noscript>
+     This site requires JavaScript enabled.
+     Please enable it to see its content.
+ </noscript>
 
-```html
-<noscript>
-    You're experiencing this website without JavaScript enabled. 
-    To enhance your experience, please enable it.
-</noscript>
-```
+ <!-- Good -->
+ <!-- A fully functional website not JavaScript dependent. -->
+ <noscript>
+     You're experiencing this website without JavaScript enabled.
+     To enhance your experience, please enable it.
+ </noscript>
+ ```
 
-> Why?
+ ## Separation of Concerns
 
-Sites relying on Graceful Degradation are built on top of JS, usually warning the user that the site won't works well without it and offering little or none funcionalities for disabled JS clients. By choosing Progressive Enhancement you ensure that, despite the lack of JS, your website doesn't break user experience. 
+ ### Avoid the use of inline scripts
 
+ > **[?]** HTML files should contain only the presentation layer (the View), keeping it separated from the Controller (JavaScript). This concept is called *Separation of Concerns*. Separated files are easier to maintain both visually and functionally.
 
-## Use `async` attribute for non-blocking `script`s
+ ``` html
+ <!-- bad -->
+ <script>
+     (function(){
+         console.log('Highway Chile');
+     })();
+ </script>
 
-For scripts that doesn't interfer on page's rendering, use `async`. A classical example would be Google Analytics code.
+ <!-- Good -->
+ <script src="highway-chile.js"></script>
+ ```
 
-> Bad:
+ ## Async Attribute
 
-```html
-<script src="//www.google-analytics.com/analytics.js"></script>
-```
+ ### Use `async` attribute for non-blocking `script`s
 
-> Good:
+ > **[?]** The `async` attribute downloads a script without blocking the rest of the page loading. By declaring it, HTML parsing may continue and the script will be executed as soon as it’s ready.
 
-```html
-<script async src="//www.google-analytics.com/analytics.js"></script>
-```
+ ```html
+ <!-- Bad -->
+ <script src="//www.google-analytics.com/analytics.js"></script>
 
-> Why?
+ <!-- Good -->
+ <script async src="//www.google-analytics.com/analytics.js"></script>
+ ```
 
-The `async` attribute downloads a script without blocking the rest of the page loading. By declaring it, HTML parsing may continue and the script will be executed as soon as it’s ready.
+ ## Type Attribute
 
+ ### Omit `type` attribute for JavaScript
 
-### Omit `type` attribute for JavaScript
+ > **[?]** Since the creation of HTML5 doctype, the `type` attribute is no longer required. By omitting it, browsers implicitely undestands it as `text/javascript`.
 
-> Bad:
+ ```html
+ <!-- bad -->
+ <script type="text/javascript" src="voodoo-child.js"></script>
 
-```html
-<script type="text/javascript" src="voodoo-child.js"></script>
-```
-
-> Good:
-
-```html
-<script src="voodoo-child.js"></script>
-```
-
-> Why?
-
-Since the creation of HTML5 doctype, the `type` attribute is no longer required. By omitting it, browsers implicitely undestands it as `text/javascript`.
-
-
-## Avoid the use of inline scripts
-
-> Bad:
-
-``` js
-<script>
-    (function(){
-        console.log('Highway Chile');
-    })();
-</script>
-```
-
-> Good:
-
-```html
-<script src="highway-chile.js"></script>
-```
-
-> Why?
-
-HTML files should, ideally, contain only the presentation layer (the View), keeping it separated from the Controller (JavaScript). This concept if often called *Separation of Concern*. Separate HTML from JS makes it easier for you (and people dealing with your code) to read and maintain both the visual and functional aspects.
+ <!-- good -->
+ <script src="voodoo-child.js"></script>
+ ```
