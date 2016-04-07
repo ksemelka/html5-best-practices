@@ -7,13 +7,13 @@
 1. [Markup Syntax](#markup-syntax)
 2. [Closing Elements](#closing-elements)
 3. [Attributes](#attributes)
-4. [Type Attribute](#type-attribute) 
+4. [Attributes](#attributes) 
 
 ## Markup Syntax
 
 ### Always lowercase your markup syntax
 
-> [?] There is no need to UPPERCASE your markup syntax. Despite of also being valid in HTML5, it difficults code readability and offers little help if the plan is to separate markup from content. For that purpose, you can always change your text editor theme.
+> **[?]** There is no need to UPPERCASE your markup syntax. Despite of also being valid in HTML5, it difficults code readability and offers little help if the plan is to separate markup from content. For that purpose, you can always change your text editor theme.
 
 ```html
 <!-- Bad -->
@@ -37,7 +37,7 @@
 
 ### Always close elements with its ending-tag
 
-> [?] Browsers will try to automatically close elements that contain ending-tags. knowing where a `<div>` ends makes a clearer code, and doing this consistently enhances clarity and makes your code easier to maintain.
+> **[?]** Browsers will try to automatically close elements that contain ending-tags. knowing where a `<div>` ends makes a clearer code, and doing this consistently enhances clarity and makes your code easier to maintain.
 
 ```html
 <!-- Bad -->
@@ -61,7 +61,7 @@
 
 ### Don't self-close elements with slash `/` for elements with no ending-tag
 
-> [?] Self-closed elements (also called *void elements*) don't need a slash `/` to close itself. [From W3C](https://www.w3.org/TR/html-markup/syntax.html): *"Void elements only have a start tag; end tags must not be specified for void elements".*
+> **[?]** Self-closed elements (also called *void elements*) don't need a slash `/` to close itself. [From W3C](https://www.w3.org/TR/html-markup/syntax.html): *"Void elements only have a start tag; end tags must not be specified for void elements".*
 
 ```html
 <!-- Bad -->
@@ -75,7 +75,7 @@
 
 ### Attribute Order
 
-> [?] Ordering attributes in the same manner creates a eye pattern and ease your code's readability.
+> **[?]** Ordering attributes in the same manner creates a eye pattern and ease your code's readability.
 
 1. `id`
 2. `name` (if applicable)
@@ -91,7 +91,7 @@
 
 ### Always use quotes for attributes
 
-> [?] Despite values with spaces or some non-alphanumeric characters, you can omit quotes for attribute values, and still have a valid HTML5 document, but **this approach not only makes your code inconsistent and harder to read**, but also **makes it harder to be compatibible with older browsers**. So, **always** use quotes for attributes.
+> **[?]** Despite values with spaces or some non-alphanumeric characters, you can omit quotes for attribute values, and still have a valid HTML5 document, but **this approach not only makes your code inconsistent and harder to read**, but also **makes it harder to be compatibible with older browsers**. So, **always** use quotes for attributes.
 
 ```html
 <!-- Bad -->
