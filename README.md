@@ -3,7 +3,7 @@
 
 > HTML5 Best Practices - Writing Scalable & Consistent HTML5
 
-[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/html5-best-practices) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)] (https://opensource.org/licenses/MIT)[![Travis](https://img.shields.io/travis/cez-aug/html5-best-practices.svg)](http://github.com/cez-aug/html5-best-practices)
+[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/html5-best-practices) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)] (https://opensource.org/licenses/MIT) [![Travis](https://img.shields.io/travis/cez-aug/html5-best-practices.svg)](http://github.com/cez-aug/html5-best-practices)
 
 A collection of Community's acclaimed best practices, advices and notes for writing scalable and sustainable HTML5 documents. Enforces semantic principles with short explanations about the most common elements of an HTML5 Application.
 
