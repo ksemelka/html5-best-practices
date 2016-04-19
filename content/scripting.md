@@ -15,14 +15,18 @@
 
 > **[?]** Sites relying on Graceful Degradation are built on top of JS, offering little or no funcionalities for disabled JS clients. Prefer Progressive Enhancement to ensure that, despite the lack of JS, your website doesn't break user's experience.
 
+Bad:
+
 ```html
-<!-- Bad -->
 <noscript>
   This site requires JavaScript enabled.
   Please enable it to see its content.
 </noscript>
+```
 
-<!-- Good -->
+Good:
+
+```html
 <!-- A fully functional website not JavaScript dependent. -->
 <noscript>
     You're experiencing this website without JavaScript enabled.
@@ -36,15 +40,19 @@
 
 > **[?]** HTML files should contain only the presentation layer (the View), keeping it separated from the Controller (JavaScript). This concept is called *Separation of Concerns*. Separated files are easier to maintain both visually and functionally.
 
+Bad:
+
 ``` html
-<!-- bad -->
 <script>
 (function(){
     console.log('Highway Chile');
 })();
 </script>
+```
 
-<!-- Good -->
+Good:
+
+```html
 <script src="highway-chile.js"></script>
 ```
 
@@ -54,11 +62,15 @@
 
 > **[?]** The `async` attribute downloads a script without blocking the rest of the page loading. By declaring it, HTML parsing may continue and the script will be executed as soon as it’s ready.
 
-```html
-<!-- Bad -->
-<script src="//www.google-analytics.com/analytics.js"></script>
+Bad:
 
-<!-- Good -->
+```html
+<script src="//www.google-analytics.com/analytics.js"></script>
+```
+
+Good:
+
+```html
 <script async src="//www.google-analytics.com/analytics.js"></script>
  ```
 
@@ -68,10 +80,14 @@
 
 > **[?]** Since the creation of HTML5 doctype, the `type` attribute is no longer required. By omitting it, browsers implicitely undestands it as `text/javascript`.
 
-```html
-<!-- bad -->
-<script type="text/javascript" src="voodoo-child.js"></script>
+Bad:
 
-<!-- good -->
+```html
+<script type="text/javascript" src="voodoo-child.js"></script>
+```
+
+Good:
+
+```html
 <script src="voodoo-child.js"></script>
 ```
