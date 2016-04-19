@@ -204,7 +204,7 @@ Generally speaking, `<section>`s are used to group parts of a document that have
 
 > Why?
 
-Unlike `<section>`, the `<div>` element don't have any semantic meaning, and should be used for styling purposes. By changing your `<div>`s to `<section>`s, you create a new outline for each part of your document, that not necessarily includes a meaningful separated section, which is definitely a bad idea.
+Unlike `<section>`, the `<div>` element doesn't have any semantic meaning, and should be used for styling purposes. By changing your `<div>`s to `<section>`s, you create a new outline for each part of your document, that not necessarily includes a meaningful separated section, which is definitely a bad idea.
 
 ## Use the `<article>` element instead of `<section>` if the content makes sense outside the page's context
 
