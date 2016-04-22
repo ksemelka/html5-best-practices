@@ -34,3 +34,12 @@ Follow the steps below so we can include your work on the repo:
 ### 3. Fix some grammar/typo or anything content-related
 
 You can either `fork` the project and submit your improvements or directly edit files here on Github. If you can't figure how to edit files, [this link](https://help.github.com/articles/editing-files-in-another-user-s-repository/) will make you ready in no time.
+
+### 4. Discuss about practices already included
+
+Just open an Issue. :scream: 
+
+Before asking anything, please make sure that:
+
+1. Your Issue was not answred before
+2. you read our [Code of Conduct](CODE_OF_CONDUCT.md).
