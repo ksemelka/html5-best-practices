@@ -3,14 +3,14 @@
 
 > HTML5 Best Practices - Writing Scalable & Consistent HTML5
 
-[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cezar/html5-best-practices) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)] (https://opensource.org/licenses/MIT) [![Travis](https://img.shields.io/travis/cezar/html5-best-practices.svg)](http://github.com/cezar/html5-best-practices)
+[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cezaraugusto/html5-best-practices) [![MIT License](https://img.shields.io/badge/public-domain-lightgrey.svg)] (https://opensource.org/licenses/MIT) [![Travis](https://img.shields.io/travis/cezaraugusto/html5-best-practices.svg)](http://github.com/cezaraugusto/html5-best-practices)
 
 A collection of Community's acclaimed best practices, advices and notes for writing scalable and sustainable HTML5 documents. Enforces semantic principles with short explanations about the most common elements of an HTML5 Application.
 
 <br>
 <br>
 <p align="center">
-<a href="#why-this-two_hearts">Why this?</a> • <a href="#target-audience-family">Target Audience</a> • <a href="#table-of-contents-zap">TOC</a> • <a href="#contribute-dancers">Contribute!</a> • <a href="#commitpr-guidelines-clap">Commit/PR Guidelines</a> • <a href="#to-do-sunglasses">To-Do</a> • <a href="#author-musical_keyboard">Author</a> • <a href="#license-memo">License</a> 
+<a href="#why-this-two_hearts">Why this?</a> • <a href="#target-audience-family">Target Audience</a> • <a href="#table-of-contents-zap">TOC</a> • <a href="#contribute-dancers">Contribute!</a> • <a href="#commitpr-guidelines-clap">Commit/PR Guidelines</a> • <a href="#to-do-sunglasses">To-Do</a> • <a href="#author-musical_keyboard">Author</a> • <a href="#license-memo">License</a>
 </p>
 <br>
 
@@ -21,10 +21,6 @@ As we include more technologies into our stack, it's easy to forgot about HTML5 
 ## Target Audience :family:
 
 Developers/Designers interessed in broaden their HTML5 semantic skills, newcomers and seasoned developers looking for a mind-refresher about HTML5 standards and best practices.
-
-<hr>
-## `Please notice that this document is currently a draft, a Work in Progress and most of its content are not public-ready yet.`
-<hr>
 
 ## Table of Contents :zap:
 
@@ -46,18 +42,9 @@ Developers/Designers interessed in broaden their HTML5 semantic skills, newcomer
 
 ## Contribute! :dancers:
 
-Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec tips? Semantics addicted? Contribute with the project!
+Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec tips? Semantics addicted? [Contribute with the project](CONTRIBUTING.md)!
 
 If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
-
-### Commit/PR guidelines :clap:
-
-Please make sure while you're making your PR that is code is:
-
-* Readable
-* Consistent
-* Predictable
-* Looks as if was written by the same person
 
 ## To-Do :sunglasses:
 
@@ -66,7 +53,7 @@ Please make sure while you're making your PR that is code is:
 - [ ] Document Metadata
 - [x] Sections
 - [ ] Grouping content
-- [ ] Text-level semantics 
+- [ ] Text-level semantics
 - [ ] Edits
 - [ ] Embedded content
 - [ ] Links
@@ -77,15 +64,15 @@ Please make sure while you're making your PR that is code is:
 - [ ] Acessibility
 - [x] Markup Style
 - [ ] ~~Other~~
-- [ ] Create CONTRIBUTING and/or PULL_REQUEST_TEMPLATE
+- [x] Create CONTRIBUTING and/or PULL_REQUEST_TEMPLATE
 - [ ] Spread the word :cool:
 
 ## Author :musical_keyboard:
 
-[Cezar Augusto](http://cezar.work) • [@cez_aug](http://twitter.com/cez_aug)
+[Cezar Augusto](http://cezar.work) • [@cezar_augusto](http://twitter.com/cezar_augusto)
 
 ## License :memo:
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Cezar Augusto](http://cezar.work) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Cezar Augusto](mailto:cezaraugusto@outlook.it) has waived all copyright and related or neighboring rights to this work.
