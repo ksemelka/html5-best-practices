@@ -26,7 +26,7 @@ Developers/Designers interessed in broaden their HTML5 semantic skills, newcomer
 
 1. ~~[General](#)~~ *abandoned*
 2. [Root element](#) *work in progress*
-3. [Document Metadata](#) *work in progress*
+3. [Document Metadata](content/document-metadata.md) **READY**
 4. [Sections](content/sections.md) **READY**
 5. [Grouping content](#) *work in progress*
 6. [Text-level semantics](#) *work in progress*
@@ -50,7 +50,7 @@ If you can't contribute but has found this guide useful, consider :star2:_**ring
 
 - [ ] ~~General~~
 - [ ] Root element
-- [ ] Document Metadata
+- [x] Document Metadata
 - [x] Sections
 - [ ] Grouping content
 - [ ] Text-level semantics
