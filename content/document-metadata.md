@@ -307,3 +307,39 @@ Good:
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 ```
+### For better legacy browser rendering, declare the pragma directive `X-UA compatible` with `content="IE=Edge"`
+
+> **[?]** By declaring `X-UA compatible`, you force old IE versions to render pages acconding with the rendering of the latest IE version. Despite all discussion evolving this pragma directive, this practice has proven to be the most reliable and is used by heavy community-driven projects, such as [Twitter Bootstrap](https://github.com/twbs/bootstrap/blob/master/docs/examples/starter-template/index.html) and [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html).
+
+Bad:
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+```
+
+Good:
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+```
+
+### For a better SEO, always declare `author` and `description` metadata
+
+> **[?]** Since the `keyword` metadata is almost ignored by search engines due to its historical abuse by authors, declaring `author` and `description` with strong keywords related to your page content, you increase the chance to appear higher in search results.
+
+Good:
+
+```html
+<meta name="author" content="HTML5 Best Practices community">
+<meta name="description" content="A collection of Community's acclaimed best practices, advices and notes for writing scalable and sustainable HTML5 documents. Enforces semantic principles with short explanations about the most common elements of an HTML5 Application.">
+```
+
+### If you're building a Web Application instead of a Web Site, declare the `application-name` metadata
+
+> **[?]** Browsers may prefer the `application-name` metadata over the `<title>` element to represent the application name for a better UI, due to the common application nature that may include status messages and other dynamic information.
+
+Good:
+
+```html
+<meta name="application-name" content="App Name">
+```
