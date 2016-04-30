@@ -46,7 +46,7 @@ If you can't contribute but has found this guide useful, consider :star2:_**ring
 
 ## Author :musical_keyboard:
 
-[Cezar Augusto](http://cezar.work) • [@cezar_augusto](http://twitter.com/cezar_augusto)
+[Cezar Augusto](http://cezaraugusto.net) • [@cezaraugusto](http://twitter.com/cezar_augusto)
 
 ## License :memo:
 
