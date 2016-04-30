@@ -28,7 +28,7 @@ Follow the steps below so we can include your work on the repo:
 1. `Fork` the main repository
 2. Create a `branch` called _translation-YOUR_LANGUAGE_HERE_
 3. Make your changes directly to the files there (keeping the same file/directory structure)
-4. When you complete the translation, ping me at [@cezar_augusto](http://twitter.com/cezar_augusto), and I'll create the same `branch` name on the main repository
+4. When you complete the translation, ping me at [@cezaraugusto](http://twitter.com/cezaraugusto), and I'll create the same `branch` name on the main repository
 5. Make a `Pull Request` to send your `branch`'s updates to the repository here with the same name.
 
 ### 3. Fix some grammar/typo or anything content-related
