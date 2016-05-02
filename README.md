@@ -10,7 +10,7 @@ A collection of Community's acclaimed best practices, advices and notes for writ
 <br>
 <br>
 <p align="center">
-<a href="#table-of-contents-zap">TOC</a> • <a href="#why-this-two_hearts">Why this?</a> • <a href="#target-audience-family">Target Audience</a> • <a href="#contribute-dancers">Contribute!</a> • <a href="#author-musical_keyboard">Author</a> • <a href="#license-memo">License</a>
+<a href="#table-of-contents-zap">TOC</a> • <a href="#why-this-two_hearts">Why thismo?</a> • <a href="#target-audience-family">Target Audience</a> • <a href="#contribute-dancers">Contribute!</a> • <a href="#author-musical_keyboard">Author</a> • <a href="#license-memo">License</a>
 </p>
 <br>
 
@@ -42,7 +42,7 @@ Developers/Designers interessed in broaden their HTML5 semantic skills, newcomer
 
 Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec tips? Semantics addicted? [Contribute with the project](.github/CONTRIBUTING.md)!
 
-If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
+If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain — like Mozart's music. :notes:
 
 ## Author :musical_keyboard:
 
