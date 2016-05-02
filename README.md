@@ -42,7 +42,7 @@ Developers/Designers interessed in broaden their HTML5 semantic skills, newcomer
 
 Saw something missing? Are you a W3C trail-blazer? Loves to look at WHATWG Spec tips? Semantics addicted? [Contribute with the project](.github/CONTRIBUTING.md)!
 
-If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain -- like Mozart's music. :notes:
+If you can't contribute but has found this guide useful, consider :star2:_**ring**_ this repo and help it become popular. It's all Public Domain — like Mozart's music. :notes:
 
 ## Author :musical_keyboard:
 
